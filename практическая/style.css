@@ -1,0 +1,208 @@
+body{
+	margin: 0 auto;
+	font-family: Arial;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #91ca63;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-evenly;
+	height: 100%;
+	align-items: center;
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	transition: font-size 0.5s;
+}
+
+.menu a:hover{
+	font-size: 22px;
+	color: #12b1c7;
+	text-decoration: line-through;
+}
+
+section{
+	margin: 0px auto;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.name{
+	width: 100%;
+	max-height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.img-class{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.img{
+	width: 1200px;
+	height: 700px;
+	background-image: url("img/baner.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+.descpr, .about, .creature, .heroes{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 30px;
+}
+
+.name_s{
+	width: 100%;
+	height: 30px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.list{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.list ul{
+	width: 68%;
+	display: flex;
+	flex-direction: column;
+}
+
+.list ul li{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.about_s{
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.about_s{
+	margin-top: 20px;
+	background-color: #0db1cc;
+	width: 68%;
+	border-radius: 20px;
+}
+
+.text_s{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+}
+
+.creature_s {
+	width: 68%;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.text_cr{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.img_h{
+	width: 100%;
+	
+}
+
+.heroes{
+	width: 68%;
+	margin: 0px auto;
+	margin-top: 20px;
+
+}
+
+.img_h{
+	width: 100%;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 250px 250px 250px 250px;
+	justify-content: space-between;
+}
+
+.heroes1, .heroes2, .heroes3, .heroes4{
+	width: 250px;
+	height: 350px;
+	margin-top: 10px;
+	
+	text-align: center;
+	font-size: 25px;
+}
+
+.img_h_1, .img_h_2, .img_h_3, .img_h_4{
+	width: 250px;
+	height: 300px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.img_h_1{
+	background-image: url("img/rik.jpg");
+}
+
+.img_h_2{
+	background-image: url("img/morti.jpg");
+}
+
+.img_h_3{
+	background-image: url("img/bet.png");
+}
+
+.img_h_4{
+	background-image: url("img/samer.jpg");
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	margin-top: 20px;
+	background-color: #191d42;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h2{
+	color: white;
+	width: 215px;
+}
+
+@media (max-width: 1485px){
+	.img_h{
+	width: 100%;
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 250px 250px;
+	justify-content: space-between;
+}
+}
